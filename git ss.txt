@@ -21,4 +21,5 @@ git remote add hamada https://link-to-your-another-remote.com >> add link to ham
 git branch main >> creates new branch with name: main
 git push origin branchName >> pushes to the remote branchName
 git pull origin branchName >> pulls to local branchName
+test
 
