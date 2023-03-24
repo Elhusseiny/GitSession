@@ -5,6 +5,7 @@ git status >> status of current branch, tarcked and untracked files
 git add file1 file2 >> adds files to git ( you haven't committed yet)
 git add . >> adds files in directory to git ( you haven't committed yet)
 git add --all >> adds all directories to git staging
+git add -A >> adds all 
 git commit -m "mymessage" >> commit changes to your local repo
 git log >> all commits on the branch
 git log one line >> all commits on the branch ( shortened data)
