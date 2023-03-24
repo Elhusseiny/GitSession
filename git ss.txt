@@ -5,7 +5,7 @@ git status >> status of current branch, tarcked and untracked files
 git add file1 file2 >> adds files to git ( you haven't committed yet)
 git add . >> adds files in directory to git ( you haven't committed yet)
 git add --all >> adds all directories to git staging
-git add -A >> adds all 
+git add -A >> adds all (((((VERY IMPORTANT))))
 git commit -m "mymessage" >> commit changes to your local repo
 git log >> all commits on the branch
 git log one line >> all commits on the branch ( shortened data)
@@ -16,7 +16,9 @@ git show commmitnumber >> shows changes of the commit with that number
 git diff commitnumber1 commitnumber2 >> shows diff
 git checkout branchnameOrCommitNumber >> moves the head to the required branch or commit
 git remote add origin https://link-to-your-remote.com >> add link to remote branch
+git remote remove origin >> remove link to remote branch
 git remote add hamada https://link-to-your-another-remote.com >> add link to hamada remote branch
 git branch main >> creates new branch with name: main
 git push origin branchName >> pushes to the remote branchName
+git pull origin branchName >> pulls to local branchName
 
