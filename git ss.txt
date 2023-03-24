@@ -19,4 +19,6 @@ git remote add origin https://link-to-your-remote.com >> add link to remote bran
 git remote add hamada https://link-to-your-another-remote.com >> add link to hamada remote branch
 git branch main >> creates new branch with name: main
 git push origin branchName >> pushes to the remote branchName
+test
+test2
 
