@@ -35,3 +35,4 @@ git merge hamada
 git mege --abort
 - a hamda branch commit -
 git tag v1.0 >> add tag or release 
+git push origin v1.0 >> you will need to push the tag to remote too
