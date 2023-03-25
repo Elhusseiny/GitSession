@@ -27,3 +27,9 @@ git reset --soft >> deletes but changes are moved to staging.. exactly the step 
 ** RESETTING FROM REMOTE IS BAD PRACTICE **
 ** FORCE PUSHING TO REMOTE IS BAD PRACTICE **
 ** ALWAYS KEEP UP-TO-DATE WITH REMOTE BRANCH -- PULL FIRST **
+* to merge hamada into main:
+git checkout main
+git merge hamada
+
+* in case of conflict, call 911:
+git mege --abort
