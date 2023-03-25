@@ -41,3 +41,4 @@ git tag v1.0 >> add tag or release
 git tag -d v1.0
 git tag >> lists tags
 git push origin v1.0 >> you will need to push the tag to remote too
+** PREFERABLE TO USE ANNOTATED TAGS **
