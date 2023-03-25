@@ -24,3 +24,4 @@ git pull origin branchName >> pulls to local branchName
 git reset commitNumber >> resets (deletes) commit ( default is mixed.. changes are moved to working directory)
 git reset --hard >> deletes completely from all ( from staging and working )
 git reset --soft >> deletes but changes are moved to staging.. exactly the step of not commiting.
+** RESETTING FROM REMOTE IS BAD PRACTICE **
