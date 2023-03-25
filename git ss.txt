@@ -24,6 +24,7 @@ git pull origin branchName >> pulls to local branchName
 git reset commitNumber >> resets (deletes) commit ( default is mixed.. changes are moved to working directory)
 git reset --hard >> deletes completely from all ( from staging and working )
 git reset --soft >> deletes but changes are moved to staging.. exactly the step of not commiting.
+git reset --hard HEAD~3 >> The last three commits (HEAD, HEAD^, and HEAD~2) were bad and you do not want to ever see them again
 ** RESETTING FROM REMOTE IS BAD PRACTICE **
 ** FORCE PUSHING TO REMOTE IS BAD PRACTICE **
 ** ALWAYS KEEP UP-TO-DATE WITH REMOTE BRANCH -- PULL FIRST **
@@ -33,4 +34,3 @@ git merge hamada
 *In case of conflict, call 911:
 git mege --abort
 - a hamda branch commit -
-
