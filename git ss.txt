@@ -19,7 +19,7 @@ git remote add origin https://link-to-your-remote.com >> add link to remote bran
 git remote remove origin >> remove link to remote branch
 git remote add hamada https://link-to-your-another-remote.com >> add link to hamada remote branch
 git branch main >> creates new local branch with name: main
-git branch --delete myOutdatedBranch >> deletes local branch
+git branch --delete myOutdatedBranch >> deletes local branch ( git branch -d myOutdatedBranchName)
 git branch >> shows local branches
 git branch -r >> list remote branches
 git push origin branchName >> pushes to the remote branchName
@@ -38,4 +38,6 @@ git merge hamada
 git mege --abort
 - a hamda branch commit -
 git tag v1.0 >> add tag or release 
+git tag -d v1.0
+git tag >> lists tags
 git push origin v1.0 >> you will need to push the tag to remote too
