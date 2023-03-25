@@ -18,7 +18,10 @@ git checkout branchnameOrCommitNumber >> moves the head to the required branch o
 git remote add origin https://link-to-your-remote.com >> add link to remote branch
 git remote remove origin >> remove link to remote branch
 git remote add hamada https://link-to-your-another-remote.com >> add link to hamada remote branch
-git branch main >> creates new branch with name: main
+git branch main >> creates new local branch with name: main
+git branch --delete myOutdatedBranch >> deletes local branch
+git branch >> shows local branches
+git branch -r >> list remote branches
 git push origin branchName >> pushes to the remote branchName
 git pull origin branchName >> pulls to local branchName
 git reset commitNumber >> resets (deletes) commit ( default is mixed.. changes are moved to working directory)
