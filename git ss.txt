@@ -26,3 +26,4 @@ git reset --hard >> deletes completely from all ( from staging and working )
 git reset --soft >> deletes but changes are moved to staging.. exactly the step of not commiting.
 ** RESETTING FROM REMOTE IS BAD PRACTICE **
 ** FORCE PUSHING TO REMOTE IS BAD PRACTICE **
+** ALWAYS KEEP UP-TO-DATE WITH REMOTE BRANCH -- PULL FIRST **
