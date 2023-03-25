@@ -25,3 +25,4 @@ git reset commitNumber >> resets (deletes) commit ( default is mixed.. changes a
 git reset --hard >> deletes completely from all ( from staging and working )
 git reset --soft >> deletes but changes are moved to staging.. exactly the step of not commiting.
 ** RESETTING FROM REMOTE IS BAD PRACTICE **
+** FORCE PUSHING TO REMOTE IS BAD PRACTICE **
