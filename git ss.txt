@@ -34,3 +34,4 @@ git merge hamada
 *In case of conflict, call 911:
 git mege --abort
 - a hamda branch commit -
+git tag v1.0 >> add tag or release 
