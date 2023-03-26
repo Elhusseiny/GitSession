@@ -43,3 +43,4 @@ git tag >> lists tags
 git push origin v1.0 >> you will need to push the tag to remote too
 ** PREFERABLE TO USE ANNOTATED TAGS **
 git checkout main >> checks out branch ( solves also detached head problem )
+test
