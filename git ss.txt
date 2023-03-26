@@ -60,3 +60,4 @@ git stash --all -m "I edited something WIP" >> same but adds a message
 git stash apply >> get back the WIP or your stash
 git stash list >> lists all the stashes
 git stash drop stash{0} >> drops / deletes the specified stash
+- a hamada branch commit -
