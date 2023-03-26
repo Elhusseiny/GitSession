@@ -54,3 +54,4 @@ git reflog >> shows full history of HEAD
 4- another editor will appear, change commit messages as you want or # to ignore them. (press insert)
 5- press escape and :wq to exit
 6- voila you squashed n number of commits into one
+git commit --amend >> amend the last local branch commit and modify existing message
