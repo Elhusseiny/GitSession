@@ -18,12 +18,16 @@ git checkout branchnameOrCommitNumber >> moves the head to the required branch o
 git remote add origin https://link-to-your-remote.com >> add link to remote branch
 git remote remove origin >> remove link to remote branch
 git remote add hamada https://link-to-your-another-remote.com >> add link to hamada remote branch
-git branch main >> creates new branch with name: main
+git branch main >> creates new local branch with name: main
+git branch --delete myOutdatedBranch >> deletes local branch ( git branch -d myOutdatedBranchName)
+git branch >> shows local branches
+git branch -r >> list remote branches
 git push origin branchName >> pushes to the remote branchName
 git pull origin branchName >> pulls to local branchName
 git reset commitNumber >> resets (deletes) commit ( default is mixed.. changes are moved to working directory)
 git reset --hard >> deletes completely from all ( from staging and working )
 git reset --soft >> deletes but changes are moved to staging.. exactly the step of not commiting.
+git reset --hard HEAD~3 >> The last three commits (HEAD, HEAD^, and HEAD~2) were bad and you do not want to ever see them again
 ** RESETTING FROM REMOTE IS BAD PRACTICE **
 ** FORCE PUSHING TO REMOTE IS BAD PRACTICE **
 ** ALWAYS KEEP UP-TO-DATE WITH REMOTE BRANCH -- PULL FIRST **
@@ -33,6 +37,9 @@ git merge hamada
 *In case of conflict, call 911:
 git mege --abort
 - a hamda branch commit -
-testmain
-test hamada
-test hamada 2
+git tag v1.0 >> add tag or release 
+git tag -d v1.0
+git tag >> lists tags
+git push origin v1.0 >> you will need to push the tag to remote too
+** PREFERABLE TO USE ANNOTATED TAGS **
+git checkout main >> checks out branch ( solves also detached head problem )
