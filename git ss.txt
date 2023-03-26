@@ -61,3 +61,5 @@ git stash apply >> get back the WIP or your stash
 git stash list >> lists all the stashes
 git stash drop stash{0} >> drops / deletes the specified stash
 - a hamada branch commit -
+git cherry-pick commitNumberfromAnotherBranch >> adds a specified commit from another branch to your branch and creates a copy from that commit at your branch.
+git cherry-pick commitNumberfromAnotherBranch -n >>  adds a specified commit from another branch to your branch without creating a new commit.. 
