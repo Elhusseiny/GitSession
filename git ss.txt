@@ -32,10 +32,10 @@ git reset --hard HEAD~3 >> The last three commits (HEAD, HEAD^, and HEAD~2) were
 ** FORCE PUSHING TO REMOTE IS BAD PRACTICE **
 ** ALWAYS KEEP UP-TO-DATE WITH REMOTE BRANCH -- PULL FIRST **
 * to merge hamada into main:
-git checkout main
-git merge hamada
+1- git checkout main
+2- git merge hamada
 *In case of conflict, call 911:
-git mege --abort
+git merge --abort
 - a hamda branch commit -
 git tag v1.0 >> add tag or release 
 git tag -d v1.0
@@ -47,3 +47,10 @@ git rebase main >> rebase is like merge but it changes history and keeps it line
 ** DON'T REBASE MASTER BRANCH **
 git merge origin/hamada >> merging from remote hamada
 git reflog >> shows full history of HEAD
+*To squash a n number of commits:
+1- git rebase -i HEAD~n
+2- enter the editor and mark the commit you need to squash with s instead of pick
+3- press escape and :wq
+4- another editor will appear, change commit messages as you want or # to ignore them. (press insert)
+5- press escape and :wq to exit
+6- voila you squashed n number of commits into one
