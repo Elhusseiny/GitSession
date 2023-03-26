@@ -45,3 +45,5 @@ git push origin v1.0 >> you will need to push the tag to remote too
 git checkout main >> checks out branch ( solves also detached head problem )
 git rebase main >> rebase is like merge but it changes history and keeps it linear ( no diamond )
 ** DON'T REBASE MASTER BRANCH **
+git merge origin/hamada >> merging from remote hamada
+git reflog >> shows full history of HEAD
