@@ -13,6 +13,7 @@ git log --oneline --graph >> all commits on the branch ( shortened data)
 git config --global user.name:"MohamedElhussein"
 git config --global user.email:"me.alhussain@gmail.com"
 git show commmitnumber >> shows changes of the commit with that number
+git show commmitnumber --stat >> shows changes of the commit with that number
 git diff commitnumber1 commitnumber2 >> shows diff
 git checkout branchnameOrCommitNumber >> moves the head to the required branch or commit
 git remote add origin https://link-to-your-remote.com >> add link to remote branch
