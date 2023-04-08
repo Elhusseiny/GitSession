@@ -23,7 +23,7 @@ git branch main >> creates new local branch with name: main
 git branch --delete myOutdatedBranch >> deletes local branch ( git branch -d myOutdatedBranchName)
 git branch >> shows local branches
 git branch -r >> list remote branches
-git push origin branchName >> pushes to the remote branchName
+git push origin branchName >> pushes local branch to the remote branchName
 git pull origin branchName >> pulls to local branchName
 git reset commitNumber >> resets (deletes) commit ( default is mixed.. changes are moved to working directory)
 git reset --hard >> deletes completely from all ( from staging and working )
@@ -55,7 +55,7 @@ git reflog >> shows full history of HEAD
 4- another editor will appear, change commit messages as you want or # to ignore them. (press insert)
 5- press escape and :wq to exit
 6- voila! you squashed n number of commits into one
-git commit --amend >> amend the last local branch commit and modify existing message
+git commit --amend -m "CUST-6537 fix authorization missing quotation bug" >> amend the last local branch commit and modify existing message
 git stash --all >> stashes / shelves / saves all WIP in the working directory if you decided for some reason to checkout another branch
 git stash --all -m "I edited something WIP" >> same but adds a message
 git stash apply >> get back the WIP or your stash
