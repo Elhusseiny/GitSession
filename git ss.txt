@@ -6,7 +6,10 @@ git add file1 file2 >> adds files to git ( you haven't committed yet)
 git add . >> adds files in directory to git ( you haven't committed yet)
 git add --all >> adds all directories to git staging
 git add -A >> adds all (((((VERY IMPORTANT))))
-git commit -m "mymessage" >> commit changes to your local repo
+git commit -m "mymessage" >> commit changes to your local repo with commit message
+git commit -m 'Message
+goes
+here' >> commit changes to your local repo with mulitline commit message
 git log >> all commits on the branch
 git log one line >> all commits on the branch ( shortened data)
 git log --oneline --graph >> all commits on the branch ( shortened data)
