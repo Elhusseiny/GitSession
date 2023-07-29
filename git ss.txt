@@ -10,7 +10,8 @@ git commit -m "mymessage" >> commit changes to your local repo with commit messa
 git commit -m 'Message
 goes
 here' >> commit changes to your local repo with mulitline commit message
-git log >> all commits on the branch
+git log >> all commits on the current branch
+git log -n >> last n commits on the current
 git log one line >> all commits on the branch ( shortened data)
 git log --oneline --graph >> all commits on the branch ( shortened data)
 git config --global user.name:"MohamedElhussein"
