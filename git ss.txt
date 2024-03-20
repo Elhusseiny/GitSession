@@ -1,6 +1,6 @@
 git commands:
 
-git init >> initialize git
+git init . >> initialize git locallyss
 git status >> status of current branch, tarcked and untracked files
 git add file1 file2 >> adds files to git ( you haven't committed yet)
 git add . >> adds files in directory to git ( you haven't committed yet)
@@ -24,11 +24,13 @@ git remote add origin https://link-to-your-remote.com >> add link to remote repo
 git remote remove origin >> remove link to remote branch
 git remote add hamada https://link-to-your-another-remote.com >> add link to hamada remote branch
 git branch main >> creates new local branch with name: main
+git branch -m bugfix/CUST-8782 >> changes/renames local branch name
 git branch --delete myOutdatedBranch >> deletes local branch ( git branch -d myOutdatedBranchName)
 git branch >> shows local branches
 git branch -r >> list remote branches
 git push origin branchName >> pushes local branch to the remote branchName
 git pull origin branchName >> pulls to local branchName
+git revert commitNumber >> reverts the commit and will add new commit for the revert in history
 git reset commitNumber >> resets (deletes) commit ( default is mixed.. changes are moved to working directory)
 git reset --hard >> deletes completely from all ( from staging and working )
 git reset --soft >> deletes but changes are moved to staging.. exactly the step of not commiting.
@@ -59,7 +61,7 @@ git reflog >> shows full history of HEAD
 4- another editor will appear, change commit messages as you want or # to ignore them. (press insert)
 5- press escape and :wq to exit
 6- voila! you squashed n number of commits into one
-git commit --amend -m "CUST-7421 Hiding prices in case of draft or cancelled statuses" >> amend the last local branch commit and modify existing message
+git commit --amend -m "CUST-8824 Fix sign up link in the user registration invitation email" >> amend the last local branch commit and modify existing message
 git stash --all >> stashes / shelves / saves all WIP in the working directory if you decided for some reason to checkout another branch
 git stash --all -m "I edited something WIP" >> same but adds a message
 git stash apply >> get back the WIP or your stash
