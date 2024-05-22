@@ -22,6 +22,7 @@ git diff commitnumber1 commitnumber2 >> shows diff
 git checkout branchnameOrCommitNumber >> moves the head to the required branch or commit
 git remote add origin https://link-to-your-remote.com >> add link to remote repo
 git remote remove origin >> remove link to remote branch
+git fetch origin >> updates/fetches all remote/origin branches
 git remote add hamada https://link-to-your-another-remote.com >> add link to hamada remote branch
 git branch main >> creates new local branch with name: main
 git branch -m bugfix/CUST-8782 >> changes/renames local branch name
